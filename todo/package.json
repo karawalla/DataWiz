@@ -1,0 +1,19 @@
+{
+  "name": "todo",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.2.5",
+    "mongoose": "~3.6.11",
+    "ntwitter": "~0.5.0",
+    "socket.io": "~0.9.14",
+    "freebase": "~2.1.11"
+  }
+}

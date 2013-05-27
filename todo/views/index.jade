@@ -1,0 +1,13 @@
+extends layout
+
+block content
+    div.container
+        h1 Todo List
+        ul#todos.unstyled
+          li#new_todo
+              div.clearfix
+                  div.input
+                      div.input-prepend
+                          span.add-on New Todo
+                          input.xlarge.todo_title(size="50", placeholder="Enter your Todo")
+

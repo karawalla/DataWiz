@@ -31,7 +31,7 @@ app.configure ->
 
 
 app.get '/', (req, res) ->
-  res.render 'home',
+  res.render 'index',
     title:'Code Racer Home'
 
 app.post '/login', (req, res) ->

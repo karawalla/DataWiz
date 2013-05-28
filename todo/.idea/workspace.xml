@@ -2,59 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e16f1602-69f5-4af9-a691-ed147b4b6d2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/todo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/configuration.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/create_responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/database.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/destroy_responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/home_controller.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/index_responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../apitests/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layout.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/show_responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/todo.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/todos_controller.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/update_responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../coderacer/views/home.jade" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../coderacer/views/index.jade" afterPath="$PROJECT_DIR$/../coderacer/views/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../coderacer/views/layout.jade" afterPath="$PROJECT_DIR$/../coderacer/views/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../coderacer/server.coffee" afterPath="$PROJECT_DIR$/../coderacer/server.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../coderacer/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../coderacer/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../coderacer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../coderacer/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/dataviz_v1.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/images/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/images/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/stylesheets/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/stylesheets/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/stylesheets/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/javascripts/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/stylesheets/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/javascripts/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/config/configuration.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/controllers/home_controller.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/views/index.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/views/layout.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/utils/mediawiki.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/server.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/public/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/tests/test1.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../dataviz_v1/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="todo.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369583736591" ignored="false" />
+    <file path="/Dummy.txt" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369718708094" ignored="false" />
     <file path="/app.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369583847225" ignored="false" />
     <file path="/configuration.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369556682110" ignored="false" />
-    <file path="/home_controller.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369586380796" ignored="false" />
+    <file path="/home_controller.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369708444283" ignored="false" />
     <file path="/database.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369551348812" ignored="false" />
     <file path="/todo.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369551760268" ignored="false" />
     <file path="/todos_controller.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369554271935" ignored="false" />
     <file path="/responder.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369554553158" ignored="false" />
     <file path="/show_responder.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369554824260" ignored="false" />
-    <file path="/layout.jade" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369556802001" ignored="false" />
-    <file path="/index.jade" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369556751807" ignored="false" />
+    <file path="/layout.jade" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369700887764" ignored="false" />
+    <file path="/index.jade" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369706957234" ignored="false" />
+    <file path="$PROJECT_DIR$/../../wikipediatest/server.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369699213484" ignored="false" />
+    <file path="/server.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369708152190" ignored="false" />
+    <file path="/package.json" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369699460136" ignored="false" />
+    <file path="/test1.coffee" changelist="e16f1602-69f5-4af9-a691-ed147b4b6d2e" time="1369706868500" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +65,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home_controller.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home_controller.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/home_controller.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="166" selection-end="166" vertical-scroll-proportion="0.25233644">
+            <state line="9" column="22" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="416" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="61" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="15" selection-start="477" selection-end="477" vertical-scroll-proportion="0.50751877">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="9" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configuration.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/configuration.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="336" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,10 +157,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="625" />
     <option name="y" value="22" />
-    <option name="width" value="828" />
-    <option name="height" value="681" />
+    <option name="width" value="1039" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -152,6 +187,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,7 +314,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,13 +370,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="625" y="22" width="828" height="681" extended-state="6" />
+    <frame x="0" y="22" width="1039" height="944" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25218776" sideWeight="0.9982238" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20866142" sideWeight="0.9982238" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -419,112 +454,92 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../datagen/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="128" selection-end="128" vertical-scroll-proportion="0.14018692">
-          <folding />
-        </state>
+        <state line="5" column="19" selection-start="128" selection-end="128" vertical-scroll-proportion="0.14018692" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../datagen/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="0" selection-end="796" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="87" selection-start="417" selection-end="417" vertical-scroll-proportion="0.32038835">
-          <folding />
-        </state>
+        <state line="19" column="27" selection-start="0" selection-end="796" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="0.26418787" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/todo.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/todos_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/responders/create_responder.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/responders/destroy_responder.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/responders/responder.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/responders/index_responder.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/configuration.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="112" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="215" selection-end="215" vertical-scroll-proportion="0.26418787">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="0" selection-end="352" vertical-scroll-proportion="0.36448598">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="239" selection-end="239" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/todo.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/todos_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/responders/create_responder.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/responders/destroy_responder.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/responders/responder.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/responders/index_responder.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="336" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/home_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="166" selection-end="166" vertical-scroll-proportion="0.25233644">
+        <state line="9" column="22" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="61" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="15" selection-start="477" selection-end="477" vertical-scroll-proportion="0.50751877">
           <folding />
         </state>
       </provider>

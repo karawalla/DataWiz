@@ -1,0 +1,15 @@
+!!!
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+        link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+        script(src='/javascripts/bootstrap.min.js')
+        script(src='/socket.io/socket.io.js')
+        script(src='/javascripts/socket.js')
+        script(src='/javascripts/paper.js')
+    body
+        h1.hero-unit. Welcome to DataWiz Home
+        block content

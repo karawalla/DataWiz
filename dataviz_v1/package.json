@@ -1,0 +1,23 @@
+{
+  "name": "dataviz_v1",
+  "version": "0.0.1",
+  "description": "Starter project for datawiz",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~3.2.5",
+    "underscore": "~1.4.4",
+    "coffee-script": "~1.6.2",
+    "mongoose": "~3.6.11",
+    "socket.io": "~0.9.14",
+    "nodemw": "~0.3.5",
+    "jade": "~0.30.0",
+    "freebase": "~2.1.11"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}

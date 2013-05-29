@@ -6,4 +6,4 @@ app.configure ->
   app.set 'view engine', 'jade'
   app.use app.router
   app.use express.static("#{__dirname}/../public")
-  app.use express.errorHandler(dumpExceptions:true, showStack:true)
+  app.use express.errorHandler(dumpExceptions:false, showStack:false)

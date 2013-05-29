@@ -2,8 +2,8 @@ extends layout
 
 block content
        div.row-fluid.left
-           div.span6.offset1
-               form.well
+           div.span5.offset1
+               div.well
                  fieldset
                    legend.label.label-info
                      h5.text-center Add New Category
@@ -17,9 +17,10 @@ block content
                      div.controls
                        button.btn.btn-primary(id="add_new_category") Add
 
-           div.span3.offset1.sidebar
+           div.span4.offset1.sidebar
                span
                    h4.text-center.text-success Categories
+               span(id="current_edit")
                ul.nav.nav-tabs.nav-stacked(id="categories")
 
 

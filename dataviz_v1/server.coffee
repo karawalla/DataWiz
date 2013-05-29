@@ -6,7 +6,7 @@ http = require('http')
 global.app = app = express()
 
 server = http.createServer(app).listen('3000')
-#global.io = io = require('socket.io').listen(server)
+global.io = require('socket.io').listen(server)
 
 
 
@@ -22,19 +22,16 @@ require "#{__dirname}/models/category"
 #routes
 require "#{__dirname}/controllers/home_controller"
 require "#{__dirname}/controllers/categories_controller"
-###
+
 io.sockets.on 'connection', (socket) ->
-  socket.on 'ping', (data) ->
-    console.log 'socket:server recieves ping'
-    socket.emit 'pong', data
-    console.log 'socket:server sends pong'
+    socket.on 'newCategory', (category) ->
+      console.log "new actegory added #{category}"
+      console.log category
+      socket.broadcast.emit 'newCategory', category
 
-    socket.on 'drawCircle', (data, session) ->
-      console.log "session #{session} drew"
-      console.log data
+    socket.on 'editStarted', () ->
+      socket.broadcast.emit 'editStarted'
 
-      socket.broadcast.emit 'drawCircle', data
- ###
 
 console.log "Server is running on port 3000"
 

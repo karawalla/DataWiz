@@ -2,28 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="719146c4-ce6f-4eca-a5a0-47b283d4dcea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/categories.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/categories.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/categories_controller.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/category.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/create_responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/database.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/freebase_controller.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/index_responder.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/responder.coffee" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/home_controller.coffee" afterPath="$PROJECT_DIR$/controllers/home_controller.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/categories.coffee" afterPath="$PROJECT_DIR$/public/javascripts/categories.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/categories.jade" afterPath="$PROJECT_DIR$/views/categories.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/categories.js" afterPath="$PROJECT_DIR$/public/javascripts/categories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/configuration.coffee" afterPath="$PROJECT_DIR$/config/configuration.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/responders/create_responder.coffee" afterPath="$PROJECT_DIR$/controllers/responders/create_responder.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.coffee" afterPath="$PROJECT_DIR$/server.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../todo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../todo/.idea/workspace.xml" />
     </list>
     <ignored path="dataviz_v1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/package.json" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369699460136" ignored="false" />
-    <file path="/server.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369808367435" ignored="false" />
+    <file path="/server.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369814797141" ignored="false" />
     <file path="/home_controller.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369708482027" ignored="false" />
     <file path="/index.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369812546940" ignored="false" />
     <file path="/layout.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369812590654" ignored="false" />
@@ -33,13 +24,15 @@
     <file path="/Dummy.txt" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369804583302" ignored="false" />
     <file path="/test.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369719463523" ignored="false" />
     <file path="/database.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805653266" ignored="false" />
-    <file path="/categories_controller.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369809305577" ignored="false" />
+    <file path="/categories_controller.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369813851941" ignored="false" />
     <file path="/responder.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805064987" ignored="false" />
     <file path="/index_responder.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805319011" ignored="false" />
     <file path="/category.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805282193" ignored="false" />
-    <file path="/create_responder.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369809263803" ignored="false" />
-    <file path="/categories.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369810457506" ignored="false" />
+    <file path="/create_responder.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369813993192" ignored="false" />
+    <file path="/categories.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369815152793" ignored="false" />
     <file path="/style.css" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369811684904" ignored="false" />
+    <file path="/configuration.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369813714114" ignored="false" />
+    <file path="/categories.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369814880039" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +52,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="categories.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/categories.jade">
+      <file leaf-file-name="categories.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/categories.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="23" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+            <state line="45" column="2" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <file leaf-file-name="server.coffee" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="38" selection-start="650" selection-end="650" vertical-scroll-proportion="0.33159947">
+            <state line="32" column="41" selection-start="821" selection-end="821" vertical-scroll-proportion="0.62418723">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categories.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/categories.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="36" selection-start="788" selection-end="800" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,22 +97,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/test.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/draw.js" />
         <option value="$PROJECT_DIR$/models/category.coffee" />
         <option value="$PROJECT_DIR$/models/database.coffee" />
         <option value="$PROJECT_DIR$/controllers/responders/responder.coffee" />
         <option value="$PROJECT_DIR$/controllers/responders/index_responder.coffee" />
-        <option value="$PROJECT_DIR$/server.coffee" />
-        <option value="$PROJECT_DIR$/public/javascripts/categories.js" />
         <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/controllers/responders/create_responder.coffee" />
-        <option value="$PROJECT_DIR$/controllers/categories_controller.coffee" />
-        <option value="$PROJECT_DIR$/public/javascripts/categories.coffee" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/controllers/home_controller.coffee" />
-        <option value="$PROJECT_DIR$/views/categories.jade" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/config/configuration.coffee" />
+        <option value="$PROJECT_DIR$/controllers/categories_controller.coffee" />
+        <option value="$PROJECT_DIR$/controllers/responders/create_responder.coffee" />
+        <option value="$PROJECT_DIR$/public/javascripts/categories.js" />
+        <option value="$PROJECT_DIR$/views/categories.jade" />
+        <option value="$PROJECT_DIR$/public/javascripts/categories.coffee" />
+        <option value="$PROJECT_DIR$/server.coffee" />
       </list>
     </option>
   </component>
@@ -190,6 +192,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,21 +466,35 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/config/configuration.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="-13.125">
+        <state line="8" column="25" selection-start="293" selection-end="293" vertical-scroll-proportion="0.15604681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="42" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/categories_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="98" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/database.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.09752926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/freebase_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -473,49 +503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/responders/responder.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="11" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/responders/index_responder.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/draw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="25" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="34" selection-start="539" selection-end="539" vertical-scroll-proportion="0.46814045">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/responders/create_responder.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="256" selection-end="256" vertical-scroll-proportion="0.17555267">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/categories.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/categories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="11" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -527,37 +515,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/draw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="75" column="41" selection-start="1891" selection-end="1891" vertical-scroll-proportion="1.4629389">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/categories_controller.coffee">
+    <entry file="file://$PROJECT_DIR$/tests/test1.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="48" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+        <state line="27" column="14" selection-start="354" selection-end="354" vertical-scroll-proportion="0.526658">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/home_controller.coffee">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/socket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+        <state line="12" column="14" selection-start="379" selection-end="379" vertical-scroll-proportion="0.23407023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/categories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/responders/index_responder.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/responders/create_responder.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/categories.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="23" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+        <state line="22" column="36" selection-start="788" selection-end="800" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/categories.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="38" selection-start="650" selection-end="650" vertical-scroll-proportion="0.33159947">
+        <state line="45" column="2" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="41" selection-start="821" selection-end="821" vertical-scroll-proportion="0.62418723">
           <folding />
         </state>
       </provider>

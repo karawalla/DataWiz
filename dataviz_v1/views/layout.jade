@@ -8,8 +8,23 @@ html
         script(src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
         script(src='/javascripts/bootstrap.min.js')
         script(src='/socket.io/socket.io.js')
-        script(src='/javascripts/socket.js')
-        script(src='/javascripts/paper.js')
+        script(src='/javascripts/categories.js')
     body
-        h1.hero-unit. Welcome to DataWiz Home
-        block content
+      div.navbar
+          div.navbar-inner
+            div.nav-collapse.collapse
+              ul.nav
+                li
+                  a(href="/Home") Home
+                li
+                  a(href="/categories") Categories
+                li
+                  a(href="/DataBank") DataBank
+
+      h2.brand.text-center Welcome to DataViz
+      br
+      br
+      hr.success
+
+
+      block content

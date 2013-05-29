@@ -6,16 +6,23 @@ http = require('http')
 global.app = app = express()
 
 server = http.createServer(app).listen('3000')
-global.io = io = require('socket.io').listen(server)
+#global.io = io = require('socket.io').listen(server)
 
 
 
 #config
 require "#{__dirname}/config/configuration"
 
-#routes
-require "#{__dirname}/controllers/test_controller"
+#database
+require "#{__dirname}/models/database"
 
+#Models
+require "#{__dirname}/models/category"
+
+#routes
+require "#{__dirname}/controllers/home_controller"
+require "#{__dirname}/controllers/categories_controller"
+###
 io.sockets.on 'connection', (socket) ->
   socket.on 'ping', (data) ->
     console.log 'socket:server recieves ping'
@@ -27,7 +34,7 @@ io.sockets.on 'connection', (socket) ->
       console.log data
 
       socket.broadcast.emit 'drawCircle', data
-
+ ###
 
 console.log "Server is running on port 3000"
 

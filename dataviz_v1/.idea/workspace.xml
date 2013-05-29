@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="719146c4-ce6f-4eca-a5a0-47b283d4dcea" name="Default" comment="" />
+    <list default="true" id="719146c4-ce6f-4eca-a5a0-47b283d4dcea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/categories.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/categories.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/categories_controller.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/category.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/create_responder.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/database.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/freebase_controller.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/index_responder.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/responders/responder.coffee" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/home_controller.coffee" afterPath="$PROJECT_DIR$/controllers/home_controller.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.coffee" afterPath="$PROJECT_DIR$/server.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../todo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../todo/.idea/workspace.xml" />
+    </list>
     <ignored path="dataviz_v1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/package.json" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369699460136" ignored="false" />
-    <file path="/server.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369720444167" ignored="false" />
+    <file path="/server.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369808367435" ignored="false" />
     <file path="/home_controller.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369708482027" ignored="false" />
-    <file path="/index.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369708585769" ignored="false" />
-    <file path="/layout.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369719322554" ignored="false" />
+    <file path="/index.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369812546940" ignored="false" />
+    <file path="/layout.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369812590654" ignored="false" />
     <file path="/test1.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369706868501" ignored="false" />
     <file path="/socket.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369717745332" ignored="false" />
     <file path="/test_controller.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369718345741" ignored="false" />
-    <file path="/Dummy.txt" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369718760278" ignored="false" />
+    <file path="/Dummy.txt" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369804583302" ignored="false" />
     <file path="/test.jade" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369719463523" ignored="false" />
+    <file path="/database.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805653266" ignored="false" />
+    <file path="/categories_controller.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369809305577" ignored="false" />
+    <file path="/responder.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805064987" ignored="false" />
+    <file path="/index_responder.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805319011" ignored="false" />
+    <file path="/category.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369805282193" ignored="false" />
+    <file path="/create_responder.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369809263803" ignored="false" />
+    <file path="/categories.coffee" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369810457506" ignored="false" />
+    <file path="/style.css" changelist="719146c4-ce6f-4eca-a5a0-47b283d4dcea" time="1369811684904" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +59,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="draw.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/draw.js">
+      <file leaf-file-name="categories.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/categories.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="26" selection-start="1673" selection-end="1673" vertical-scroll-proportion="1.0338101">
+            <state line="27" column="23" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="38" selection-start="650" selection-end="650" vertical-scroll-proportion="0.33159947">
               <folding />
             </state>
           </provider>
@@ -49,39 +84,50 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config/configuration.coffee" />
-        <option value="$PROJECT_DIR$/tests/test1.coffee" />
-        <option value="$PROJECT_DIR$/utils/mediawiki.coffee" />
-        <option value="$PROJECT_DIR$/controllers/home_controller.coffee" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
-        <option value="$PROJECT_DIR$/public/javascripts/socket.coffee" />
-        <option value="$PROJECT_DIR$/controllers/test_controller.coffee" />
-        <option value="$PROJECT_DIR$/public/javascripts/socket.js" />
         <option value="$PROJECT_DIR$/views/test.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/draw.js" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/models/category.coffee" />
+        <option value="$PROJECT_DIR$/models/database.coffee" />
+        <option value="$PROJECT_DIR$/controllers/responders/responder.coffee" />
+        <option value="$PROJECT_DIR$/controllers/responders/index_responder.coffee" />
         <option value="$PROJECT_DIR$/server.coffee" />
+        <option value="$PROJECT_DIR$/public/javascripts/categories.js" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
+        <option value="$PROJECT_DIR$/controllers/responders/create_responder.coffee" />
+        <option value="$PROJECT_DIR$/controllers/categories_controller.coffee" />
+        <option value="$PROJECT_DIR$/public/javascripts/categories.coffee" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/controllers/home_controller.coffee" />
+        <option value="$PROJECT_DIR$/views/categories.jade" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="715" />
-    <option name="y" value="22" />
+    <option name="x" value="922" />
+    <option name="y" value="34" />
     <option name="width" value="1017" />
     <option name="height" value="915" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -157,21 +203,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataviz_v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataviz_v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,7 +239,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataviz_v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="responders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,11 +308,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.general" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo" />
+    <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/controllers" />
       <recent name="$PROJECT_DIR$/public/javascripts" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/public" />
@@ -254,6 +342,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="719146c4-ce6f-4eca-a5a0-47b283d4dcea" name="Default" comment="" />
@@ -263,25 +368,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="715" y="22" width="1017" height="915" extended-state="1" />
+    <frame x="922" y="34" width="1017" height="915" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24949698" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -347,91 +452,112 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.42281878">
+        <state line="21" column="0" selection-start="499" selection-end="499" vertical-scroll-proportion="-13.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test1.coffee">
+    <entry file="file://$PROJECT_DIR$/models/database.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="31" selection-end="346" vertical-scroll-proportion="0.039011702">
+        <state line="5" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.09752926">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/mediawiki.coffee">
+    <entry file="file://$PROJECT_DIR$/controllers/freebase_controller.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="58" selection-start="256" selection-end="256" vertical-scroll-proportion="0.21456437">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/configuration.coffee">
+    <entry file="file://$PROJECT_DIR$/controllers/responders/responder.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+        <state line="5" column="11" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/socket.coffee">
+    <entry file="file://$PROJECT_DIR$/controllers/responders/index_responder.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="70" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/home_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/test_controller.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/test.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="71" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/socket.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="54" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/draw.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="26" selection-start="1673" selection-end="1673" vertical-scroll-proportion="1.0338101">
+        <state line="63" column="25" selection-start="1608" selection-end="1608" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="34" selection-start="539" selection-end="539" vertical-scroll-proportion="0.46814045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/responders/create_responder.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="256" selection-end="256" vertical-scroll-proportion="0.17555267">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/categories.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="12" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/categories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/category.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/categories_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="48" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/home_controller.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/categories.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="23" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="650" selection-end="650" vertical-scroll-proportion="0.33159947">
           <folding />
         </state>
       </provider>

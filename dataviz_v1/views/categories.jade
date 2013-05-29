@@ -1,0 +1,27 @@
+extends layout
+
+block content
+       div.row-fluid.left
+           div.span6.offset1
+               form.well
+                 fieldset
+                   legend.label.label-info
+                     h5.text-center Add New Category
+                   label Name
+                   input(type="text", id="category_name")
+                   label Base
+                   select(id="category_base")
+                     option(value="Names") Names
+                     option(value="Dates") Dates
+                   div.control-group.pull-right
+                     div.controls
+                       button.btn.btn-primary(id="add_new_category") Add
+
+           div.span3.offset1.sidebar
+               span
+                   h4.text-center.text-success Categories
+               ul.nav.nav-tabs.nav-stacked(id="categories")
+
+
+
+

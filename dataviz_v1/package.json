@@ -14,7 +14,9 @@
     "socket.io": "~0.9.14",
     "nodemw": "~0.3.5",
     "jade": "~0.30.0",
-    "freebase": "~2.1.11"
+    "freebase": "~2.1.11",
+    "nodetime": "~0.8.12",
+    "toobusy": "~0.2.3"
   },
   "devDependencies": {},
   "repository": "",

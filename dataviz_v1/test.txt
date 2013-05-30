@@ -1,0 +1,8 @@
+phantomjs yslow.js --info basic  "http://localhost:3000/categories"{
+    "w":146046,
+    "o":84,
+    "u":"http%3A%2F%2Flocalhost:3000%2Fcategories",
+    "r":14,
+    "i":"ydefault",
+    "lt":1103
+}
